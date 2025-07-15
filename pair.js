@@ -85,7 +85,7 @@ router.get("/", async (req, res) => {
             const mg = `🛑 *WELOCOME TO ZERO BOT* 🛑`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
-                url: "https://raw.githubusercontent.com/Dark-Robin/Bot-Helper/refs/heads/main/autoimage/Bot%20robin%20WP.jpg",
+                url: "https://static.vecteezy.com/system/resources/thumbnails/011/859/248/small/initial-letter-zero-logo-or-icon-design-image-template-vector.jpg",
               },
               caption: sid,
             });
